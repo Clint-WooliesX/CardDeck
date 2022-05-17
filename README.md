@@ -1,5 +1,11 @@
 # CardDeck
 C# Generated Card deck and random draw
+
+## Program Class
+### Main()
+* Deck.CreateDeck() //Create the deck
+* Deck.DrawCards() // takes an int and draws n cards
+
 ## Card Class
 * Defines the Card and its properties.
 * Logic within the constructor assigns face values Ace, Jack, Queen, King
