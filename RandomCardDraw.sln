@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomCardDraw", "RandomCardDraw\RandomCardDraw.csproj", "{190C4133-3716-4657-8546-786222A8645F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{190C4133-3716-4657-8546-786222A8645F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190C4133-3716-4657-8546-786222A8645F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190C4133-3716-4657-8546-786222A8645F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190C4133-3716-4657-8546-786222A8645F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96DA0441-3663-4C3D-8BC2-417A1FE0EB07}
+	EndGlobalSection
+EndGlobal
