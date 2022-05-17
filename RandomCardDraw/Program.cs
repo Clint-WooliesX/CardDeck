@@ -8,7 +8,8 @@ namespace RandomCardDraw
         {
             Deck.CreateDeck();
             Console.Clear();
-            Deck.DrawCards(52);
+            Deck.DrawCards();
         }
+
     }
 }

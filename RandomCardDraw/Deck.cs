@@ -20,8 +20,14 @@ namespace RandomCardDraw
             }
         }
 
-        static public void DrawCards(int numOfCards)
+        static public void DrawCards(int numOfCards=10)
         {
+            if (numOfCards > 52)
+            {
+                Console.WriteLine("Must be 1-52! There is only 52 cards in the deck!!!");
+                return;
+            }
+            Card[] drawnCards = new Card[numOfCards];
             List<int> randomList = new List<int>();
             Random RandomNum = new Random();
             int RNumber;
@@ -35,7 +41,5 @@ namespace RandomCardDraw
             }
         }
     }
-
-
     
 }

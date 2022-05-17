@@ -8,8 +8,6 @@ namespace RandomCardDraw
         public string Color;
         public string Face;
 
-       
-
         public Card(int number, String suit)
         {
             Number = number;
